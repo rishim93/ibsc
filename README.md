@@ -20,5 +20,8 @@
     * mac
     `$ export FLASK_ENV=development`
     
+## Run application
+
+flask run
 
 
