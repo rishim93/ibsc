@@ -10,3 +10,15 @@
 `pipenv shell ` which will create the environment and activate it if there is a pipfile in the current folder
 
 
+## Debug mode
+
+-  To run flask in debug mode, we have to define a environment variable
+    * windows(powershell)
+    `$env:FLASK_ENV = "development"`
+    * windows(cmd)
+    `C:\path\to\app>set FLASK_ENV=development`
+    * mac
+    `$ export FLASK_ENV=development`
+    
+
+
